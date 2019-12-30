@@ -1,0 +1,17 @@
+<svg width="450" height="400" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="backdrop">
+   <title>background</title>
+   <polygon stroke="#726f6f" stroke-linejoin="round" id="border" fill-opacity="0" stroke-width="8" points="225.0000114440918,379.5813903808594 40.775909423828125,290.8287353515625 40.775909423828125,113.32344818115234 225.0000114440918,24.57078742980957 409.2240867614746,113.32344818115234 409.2240867614746,290.8287353515625 225.0000114440918,379.5813903808594 " fill="#000000"/>
+   <polygon stroke="#000000" stroke-linejoin="round" stroke-width="8" points="225.61149215698242,367.7336120605469 53.683624267578125,284.90484619140625 53.683624267578125,119.24732208251953 225.61149215698242,36.41856002807617 397.539363861084,119.24732208251953 397.539363861084,284.90484619140625 225.61149215698242,367.7336120605469 " fill="#000000" id="inner" stroke-opacity="0"/>
+  </g>
+  <g id="svg_13">
+   <line fill="none" stroke-width="2" stroke-dasharray="null" stroke-linejoin="round" stroke-linecap="null" x1="86.94905" y1="202.0761" x2="363.05093" y2="202.0761" id="svg_10" stroke="#cccccc"/>
+   <circle fill="#cccccc" stroke="#cccccc" stroke-width="8" stroke-dasharray="null" stroke-linejoin="round" stroke-linecap="null" cx="224.99998" cy="202.0761" r="2" id="svg_11"/>
+  </g>
+  <text font-variant="unicase" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="54" id="svg_3" y="166" x="224.99476" stroke-linecap="null" stroke-linejoin="round" stroke-dasharray="null" stroke-width="0" stroke="#cccccc" fill="#e5e5e5">RaFFLeS</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_4" y="258" x="225.00259" stroke-linecap="null" stroke-linejoin="round" stroke-dasharray="null" stroke-width="0" stroke="#cccccc" fill="#e5e5e5">Fund Services</text>
+ </g>
+</svg>
