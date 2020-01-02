@@ -36,7 +36,7 @@
         }
 
         .animateColor {
-            font-size: 72px;
+            font-size: 45px;
             color: #00ffff;
             background-image: -webkit-linear-gradient(92deg, #00ffff, #3d16eb);
             -webkit-background-clip: text;
@@ -50,6 +50,29 @@
             }
             to {
                 -webkit-filter: hue-rotate(-360deg);
+            }
+        }
+
+        @media only screen and (min-device-width: 480px) {
+            .container {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .svgImage {
+                width: 400px;
+                height: 400px;
+                background-position: center;
+            }
+
+            .animateColor {
+                font-size: 70px;
+                color: #00ffff;
+                background-image: -webkit-linear-gradient(92deg, #00ffff, #3d16eb);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: hue 10s linear infinite;
             }
         }
     </style>
