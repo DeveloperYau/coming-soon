@@ -6,16 +6,76 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./styles.css">
     <title>Coming Soon!</title>
+    <style>
+        .title {
+            text-align:center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .svgImage {
+            width: 200px;
+            height: 200px;
+            background-position: center;
+        }
+
+        #ec-logo {
+            background-image: url('./images/ec-logo.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        #reffles-logo {
+            background-image: url('./images/raffles.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .border {
+           
+            animation: changeColor 3s ease-in-out infinite;
+        }
+
+        @keyframes changeColor {
+            0%{
+                stroke: #00ffff;
+                /* background-position:0% 50%;
+                transform: rotate3d(0,1,0,45deg); */
+            }
+            /* 50%{background-position:100% 50%} */
+            100%{
+                stroke: #bd0f2f;
+                /* background-position:0% 50%;
+                transform: rotate3d(0,1,0,0deg);  */
+            }
+        }
+
+        @media only screen and (min-device-width: 480px) {
+            .container {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .svgImage {
+                width: 400px;
+                height: 400px;
+                background-position: center;
+            }
+        }
+    </style>
 </head>
 <body>
-    <svg width="200" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-    <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
-    <g>
-        <title>Layer 1</title>
-        <ellipse transform="rotate(-19.266796112060547 100.26425170898435,51.112453460693345) " stroke="#00ffff" fill-opacity="0" ry="23.62896" rx="95" id="cirlce" cy="51.11245" cx="100.26425" stroke-width="10" fill="#000000"/>
-        <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="58" id="ec-font" y="63" x="100" stroke-width="0" stroke="#00ffff" fill="#ff7f00">EC</text>
-    </g>
-    </svg>
+    <article class="container">
+        <div id="ec-logo" class="svgImage"></div>
+        <div id="reffles-logo" class="svgImage"></div>
+    </article>
+    <h1 class="title">
     Coming Soon!
+    </h1>
 </body>
 </html>
