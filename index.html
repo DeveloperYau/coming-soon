@@ -35,22 +35,21 @@
             background-size: contain;
         }
 
-        .border {
-           
-            animation: changeColor 3s ease-in-out infinite;
+        .animateColor {
+            font-size: 72px;
+            color: #00ffff;
+            background-image: -webkit-linear-gradient(92deg, #00ffff, #3d16eb);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: hue 10s linear infinite;
         }
 
-        @keyframes changeColor {
-            0%{
-                stroke: #00ffff;
-                /* background-position:0% 50%;
-                transform: rotate3d(0,1,0,45deg); */
+        @keyframes hue {
+            from {
+                -webkit-filter: hue-rotate(0deg);
             }
-            /* 50%{background-position:100% 50%} */
-            100%{
-                stroke: #bd0f2f;
-                /* background-position:0% 50%;
-                transform: rotate3d(0,1,0,0deg);  */
+            to {
+                -webkit-filter: hue-rotate(-360deg);
             }
         }
 
@@ -74,7 +73,7 @@
         <div id="ec-logo" class="svgImage"></div>
         <div id="reffles-logo" class="svgImage"></div>
     </article>
-    <h1 class="title">
+    <h1 class="title animateColor">
     Coming Soon!
     </h1>
 </body>
